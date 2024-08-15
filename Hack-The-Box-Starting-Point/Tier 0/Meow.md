@@ -1,41 +1,40 @@
-Task 1
+## Task 1
 
 What does the acronym VM stand for? 
 Virtual machine
 https://en.wikipedia.org/wiki/Virtual_machine
 
- Task 2
+###### Task 2
 
 What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell. 
 
 terminal
 https://en.wikipedia.org/wiki/Terminal_emulator
 
-
- Task 3
+###### Task 3
 
 What service do we use to form our VPN connection into HTB labs? 
 openvpn
 https://en.wikipedia.org/wiki/OpenVPN
 
- Task 4
+###### Task 4
 
 What tool do we use to test our connection to the target with an ICMP echo request? 
 ping
 https://en.wikipedia.org/wiki/Ping_(networking_utility)
- Task 5
+###### Task 5
 
 What is the name of the most common tool for finding open ports on a target? 
 nmap
 https://en.wikipedia.org/wiki/Nmap
 
- Task 6
+###### Task 6
 
 What service do we identify on port 23/tcp during our scans? 
 telnet
 https://en.wikipedia.org/wiki/Telnet
 
- Task 7
+###### Task 7
 
 What username is able to log into the target over telnet with a blank password? 
 root
