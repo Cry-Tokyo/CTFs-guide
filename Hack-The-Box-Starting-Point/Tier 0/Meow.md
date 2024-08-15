@@ -42,7 +42,7 @@ What username is able to log into the target over telnet with a blank password?
 [root](https://en.wikipedia.org/wiki/Superuser)
 
 
-root flag
+## Flags
 
 ping machine
 ```shell
