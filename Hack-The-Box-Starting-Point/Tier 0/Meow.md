@@ -44,7 +44,7 @@ What username is able to log into the target over telnet with a blank password?
 
 ## Flags
 
-Ping the Target machine IP address
+Ping the Target machine's IP address
 ```shell
 [cry_baby@ace ~]$ ping 10.129.190.255
 PING 10.129.190.255 (10.129.190.255) 56(84) bytes of data.
