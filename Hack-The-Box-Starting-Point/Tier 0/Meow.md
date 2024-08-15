@@ -17,6 +17,7 @@ https://en.wikipedia.org/wiki/Terminal_emulator
 What service do we use to form our VPN connection into HTB labs? 
 openvpn
 https://en.wikipedia.org/wiki/OpenVPN
+
  Task 4
 
 What tool do we use to test our connection to the target with an ICMP echo request? 
@@ -27,11 +28,13 @@ https://en.wikipedia.org/wiki/Ping_(networking_utility)
 What is the name of the most common tool for finding open ports on a target? 
 nmap
 https://en.wikipedia.org/wiki/Nmap
+
  Task 6
 
 What service do we identify on port 23/tcp during our scans? 
 telnet
 https://en.wikipedia.org/wiki/Telnet
+
  Task 7
 
 What username is able to log into the target over telnet with a blank password? 
