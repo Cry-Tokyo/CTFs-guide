@@ -4,67 +4,66 @@
 
 What does the 3-letter acronym FTP stand for?
 
-[File Transfer Protocol]((https://en.wikipedia.org/wiki/File_Transfer_Protocol)
-
+[File Transfer Protocol](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
 ###### Task 2
 
 Which port does the FTP service listen on usually?
 
-[Answer](link)
+Port [21](https://www.speedguide.net/port.php?port=21)
 
 ###### Task 3
 
 FTP sends data in the clear, without any encryption. What acronym is used for a later protocol designed to provide similar functionality to FTP but securely, as an extension of the SSH protocol?
 
-[Answer](link)
+[SFTP](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol)
 
 ###### Task 4
 
 What is the command we can use to send an ICMP echo request to test our connection to the target?
 
-[Answer](link)
+[ping](https://en.wikipedia.org/wiki/Ping_(networking_utility))
 
 ###### Task 5
 
 From your scans, what version is FTP running on the target? 
 
-[Answer](link)
+[vsftpd 3.0.3](https://en.wikipedia.org/wiki/Vsftpd#:~:text=vsftpd%20(or%20very%20secure%20FTP,Slackware%20and%20RHEL%20Linux%20distributions.)
 
 ###### Task 6
 
 From your scans, what OS type is running on the target?
 
-[Answer](link)
+[Unix](https://en.wikipedia.org/wiki/Unix)
 
 ###### Task 7
 
 What is the command we need to run in order to display the 'ftp' client help menu? 
 
-[Answer](link)
+[ftp -h](https://www.commandlinux.com/man-page/man1/ftp.1.html)
 
 ###### Task 8
 
 What is username that is used over FTP when you want to log in without having an account? 
 
-[Answer](link)
+[anonymous](https://en.wikipedia.org/wiki/File_Transfer_Protocol#Anonymous_FTP)
 
 ###### Task 9
 
 What is the response code we get for the FTP message 'Login successful'? 
 
-[Answer](link)
+[230](https://en.wikipedia.org/wiki/List_of_FTP_server_return_codes)
 
 ###### Task 10
 
 There are a couple of commands we can use to list the files and directories available on the FTP server. One is dir. What is the other that is a common way to list files on a Linux system.
 
-[Answer](link)
+[ls](https://en.wikipedia.org/wiki/Ls)
 
 ###### Task 11
 
 What is the command used to download the file we found on the FTP server? 
 
-[Answer](link)
+[get](https://wiki.gentoo.org/wiki/FTP#Usage)
 
 ## Flags
 
