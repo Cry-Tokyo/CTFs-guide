@@ -9,7 +9,7 @@ What does the 3-letter acronym FTP stand for?
 
 Which port does the FTP service listen on usually?
 
-Port: [21](https://www.speedguide.net/port.php?port=21)
+[Port: 21](https://www.speedguide.net/port.php?port=21)
 
 ###### Task 3
 
