@@ -9,7 +9,7 @@ What does the 3-letter acronym FTP stand for?
 
 Which port does the FTP service listen on usually?
 
-Port [21](https://www.speedguide.net/port.php?port=21)
+Port: [21](https://www.speedguide.net/port.php?port=21)
 
 ###### Task 3
 
@@ -27,7 +27,7 @@ What is the command we can use to send an ICMP echo request to test our connecti
 
 From your scans, what version is FTP running on the target? 
 
-[vsftpd 3.0.3](https://en.wikipedia.org/wiki/Vsftpd#:~:text=vsftpd%20(or%20very%20secure%20FTP,Slackware%20and%20RHEL%20Linux%20distributions.)
+[vsftpd 3.0.3](https://en.wikipedia.org/wiki/Vsftpd#:~:text=vsftpd%20(or%20very%20secure%20FTP,Slackware%20and%20RHEL%20Linux%20distributions. )
 
 ###### Task 6
 
