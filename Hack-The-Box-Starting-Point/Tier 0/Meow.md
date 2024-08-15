@@ -3,47 +3,41 @@
 ###### Task 1
 
 What does the acronym VM stand for? 
-Virtual machine
-https://en.wikipedia.org/wiki/Virtual_machine
+[Virtual machine](https://en.wikipedia.org/wiki/Virtual_machine)
 
 ###### Task 2
 
 What tool do we use to interact with the operating system in order to issue commands via the command line, such as the one to start our VPN connection? It's also known as a console or shell. 
 
-terminal
-https://en.wikipedia.org/wiki/Terminal_emulator
+[terminal](https://en.wikipedia.org/wiki/Terminal_emulator)
 
 ###### Task 3
 
 What service do we use to form our VPN connection into HTB labs? 
-openvpn
-https://en.wikipedia.org/wiki/OpenVPN
+[openvpn](https://en.wikipedia.org/wiki/OpenVPN)
 
 ###### Task 4
 
 What tool do we use to test our connection to the target with an ICMP echo request? 
-ping
-https://en.wikipedia.org/wiki/Ping_(networking_utility)
+[ping](https://en.wikipedia.org/wiki/Ping_(networking_utility))
 ###### Task 5
 
 What is the name of the most common tool for finding open ports on a target? 
-nmap
-https://en.wikipedia.org/wiki/Nmap
+[nmap](https://en.wikipedia.org/wiki/Nmap)
 
 ###### Task 6
 
 What service do we identify on port 23/tcp during our scans? 
-telnet
-https://en.wikipedia.org/wiki/Telnet
+[telnet](https://en.wikipedia.org/wiki/Telnet)
 
 ###### Task 7
 
 What username is able to log into the target over telnet with a blank password? 
-root
-https://en.wikipedia.org/wiki/Superuser
+[root](https://en.wikipedia.org/wiki/Superuser)
 
 
 root flag
+
 ping machine
 ```
 [cry_baby@ace ~]$ ping 10.129.190.255
@@ -56,6 +50,8 @@ PING 10.129.190.255 (10.129.190.255) 56(84) bytes of data.
 --- 10.129.190.255 ping statistics ---
 4 packets transmitted, 4 received, 0% packet loss, time 3004ms
 rtt min/avg/max/mdev = 10.216/10.303/10.452/0.093 ms
+```
+```
 [cry_baby@ace ~]$ nmap -sV 10.129.190.255
 Starting Nmap 7.95 ( https://nmap.org ) at 2024-08-14 21:50 EDT
 Nmap scan report for 10.129.190.255
