@@ -39,7 +39,7 @@ What username is able to log into the target over telnet with a blank password?
 root flag
 
 ping machine
-```
+```bash
 [cry_baby@ace ~]$ ping 10.129.190.255
 PING 10.129.190.255 (10.129.190.255) 56(84) bytes of data.
 64 bytes from 10.129.190.255: icmp_seq=1 ttl=63 time=10.2 ms
