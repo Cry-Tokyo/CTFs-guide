@@ -66,7 +66,7 @@ What is the command used to download the file we found on the FTP server?
 [get](https://wiki.gentoo.org/wiki/FTP#Usage)
 
 ## Flags
-
+Ping the target machine and run a service version port scan using nmap
 ```shell
 [cry_baby@ace ~]$ ping 10.129.98.211
 PING 10.129.98.211 (10.129.98.211) 56(84) bytes of data.
@@ -90,14 +90,14 @@ Service Info: OS: Unix
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 0.33 seconds
 ```
-
+From the nmap results we can see a ftp servicee running on port 21, so lets try cone
 ```shell
 [cry_baby@ace ~]$ ftp 10.129.98.211
 Connected to 10.129.98.211.
 220 (vsFTPd 3.0.3)
 Name (10.129.98.211:cry_baby):
 ```
-
+Login using anonymous and login without a password
 ```shell
 Name (10.129.98.211:cry_baby): anonymous
 331 Please specify the password.
@@ -107,7 +107,7 @@ Remote system type is UNIX.
 Using binary mode to transfer files.
 ftp>
 ```
-
+list all the files and download the flag.txt on to your machine
 ```shell
 ftp> ls
 200 PORT command successful. Consider using PASV.
